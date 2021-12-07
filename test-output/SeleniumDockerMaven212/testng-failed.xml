@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumDockerMaven212]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.iftas.liteners.ExecutionListener"/>
+  </listeners>
+  <test name="SeleniumDocker(failed)">
+    <classes>
+      <class name="com.iftas.pageTest.SeleniumDocker">
+        <methods>
+          <include name="testCheckBox"/>
+          <include name="setUp"/>
+          <include name="simpleTest"/>
+          <include name="afterTest"/>
+          <include name="setupBeforeSuite"/>
+        </methods>
+      </class> <!-- com.iftas.pageTest.SeleniumDocker -->
+      <class name="com.iftas.pageTest.SampleConnectGrid">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.iftas.pageTest.SampleConnectGrid -->
+    </classes>
+  </test> <!-- SeleniumDocker(failed) -->
+</suite> <!-- Failed suite [SeleniumDockerMaven212] -->

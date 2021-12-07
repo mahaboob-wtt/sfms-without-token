@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumDockerMaven212" parallel = "false">
+    <listeners>
+    
+        <listener class-name="com.iftas.liteners.ExecutionListener"/>    
+    
+    </listeners>
+
+	<test name="SFMSApplication" preserve-order="true">
+		<classes>
+			    
+			     <class name="com.iftas.pageTest.VerifyLoginTest" />
+			       <class name="com.iftas.pageTest.UserAdministrationTest" />
+			      	 <class name="com.iftas.pageTest.IFSCDirectoryTest" />
+			       		<class name="com.iftas.pageTest.ERRequestCreationTest" />
+			       			<class name="com.iftas.pageTest.AddingUserRolesTest" /> 
+			    
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

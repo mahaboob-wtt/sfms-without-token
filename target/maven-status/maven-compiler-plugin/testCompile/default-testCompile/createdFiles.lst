@@ -1,0 +1,6 @@
+com\iftas\pageTest\VerifyLoginTest.class
+com\iftas\pageTest\AddingUserRolesTest.class
+com\iftas\pageTest\UserAdministrationTest.class
+com\iftas\pageTest\IFSCDirectoryTest.class
+com\iftas\pageTest\ERRequestCreationTest.class
+com\iftas\pageTest\LaunchandLoginTest.class
