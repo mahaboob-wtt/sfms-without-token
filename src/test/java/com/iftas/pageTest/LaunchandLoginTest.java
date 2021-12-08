@@ -27,15 +27,15 @@ public class LaunchandLoginTest {
 
 		try {
 
-			s.click("/Images/NewAllowplugin.png");
+			s.click("/home/walkingtree/Downloads/SFMS29/SFMS/Images/NewAllowplugin.png");
 
-			s.click("/Images/AllowingPp.png");
+			s.click("/home/walkingtree/Downloads/SFMS29/SFMS/Images/AllowingPp.png");
 
 			Thread.sleep(10000);
 
-			s.click("/Images/security check box.png");
+			s.click("/home/walkingtree/Downloads/SFMS29/SFMS/Images/security check box.png");
 
-			s.click("/Images/Runbutton.png");
+			s.click("/home/walkingtree/Downloads/SFMS29/SFMS/Images/Runbutton.png");
 
 		} catch (FindFailed e) {
 			// TODO Auto-generated catch block
@@ -52,9 +52,9 @@ public class LaunchandLoginTest {
 
 		Thread.sleep(7000);
 
-		s.click("/Images/security check box.png");
+		s.click("/home/walkingtree/Downloads/SFMS29/SFMS/Images/security check box.png");
 
-		s.click("/Images/Runbutton.png");
+		s.click("/home/walkingtree/Downloads/SFMS29/SFMS/Images/Runbutton.png");
             
                           
     }
@@ -73,9 +73,9 @@ public class LaunchandLoginTest {
 
 		Thread.sleep(10000);
 
-		s.click("/Images/security check box.png");
+		s.click("/home/walkingtree/Downloads/SFMS29/SFMS/Images/security check box.png");
 
-		s.click("/Images/Runbutton.png");
+		s.click("/home/walkingtree/Downloads/SFMS29/SFMS/Images/Runbutton.png");
 	
 	}
 }
