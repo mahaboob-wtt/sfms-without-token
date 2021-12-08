@@ -87,17 +87,17 @@ public class ERRequestCreationTest extends LaunchandLoginTest {
 	  //s.click(System.getProperty("user.dir")+"/Images/pfxfile.png"); //
 	  //s.click(System.getProperty("user.dir")+"/Images/pfxfileopen.png"); //
 	  
-	  s.click(System.getProperty("Images/pfxpasswordfield.png"));
+	  s.click(System.getProperty("user.dir")+"/Images/pfxpasswordfield.png");
 	  
-	  s.click(System.getProperty("Images/SelectFileImage.png"));
+	  s.click(System.getProperty("user.dir")+"/Images/SelectFileImage.png");
 	  
-	  s.type(System.getProperty("PFXFile/RBIH0000000.pfx"));
+	  s.type("PFXFile/RBIH0000000.pfx");
 	  
-	  s.click(System.getProperty("Images/pfxpasswordfield.png"));
+	  s.click(System.getProperty("user.dir")+"/Images/pfxpasswordfield.png");
 	  
 	  s.type("pfxfile123");
 	  
-	  s.click(System.getProperty("Images/Okbutton_pfxwindow.png"));
+	  s.click(System.getProperty("user.dir")+"/Images/Okbutton_pfxwindow.png");
 	  
 	  Thread.sleep(10000);
 	  
@@ -203,9 +203,9 @@ public class ERRequestCreationTest extends LaunchandLoginTest {
 	  
 	  Thread.sleep(10000);
 	  
-	  s.click(System.getProperty("/Images/security check box.png"));
+	  s.click(System.getProperty("user.dir")+"/Images/security check box.png");
 	  
-	  s.click(System.getProperty("/Images/Runbutton.png"));
+	  s.click(System.getProperty("user.dir")+"/Images/Runbutton.png");
 	  
 	  driver.findElement(By.xpath(
 	  "//table[@id='enhcdRcnReqListingTableId']/tbody/tr[1]")).click();
@@ -239,15 +239,15 @@ public class ERRequestCreationTest extends LaunchandLoginTest {
 
 		Thread.sleep(4000);
 
-		s.click(System.getProperty("Images/SelectFileImage.png"));
+		s.click(System.getProperty("user.dir")+"/Images/SelectFileImage.png");
 
-		s.type(System.getProperty("PFXFile/RBIH0000000.pfx"));
+		s.type("PFXFile/RBIH0000000.pfx");
 
-		s.click(System.getProperty("Images/pfxpasswordfield.png"));
+		s.click(System.getProperty("user.dir")+"/Images/pfxpasswordfield.png");
 
 		s.type("pfxfile123");
 
-		s.click(System.getProperty("Images/Okbutton_pfxwindow.png"));
+		s.click(System.getProperty("user.dir")+"/Images/Okbutton_pfxwindow.png");
 
 		Thread.sleep(10000);
 
@@ -273,9 +273,9 @@ public class ERRequestCreationTest extends LaunchandLoginTest {
 		
 		Thread.sleep(20000);
 
-		s.click(System.getProperty("Images/security check box.png"));
+		s.click(System.getProperty("user.dir")+"/Images/security check box.png");
 
-		s.click(System.getProperty("Images/Runbutton.png"));
+		s.click(System.getProperty("user.dir")+"/Images/Runbutton.png");
 
 		//driver.findElement(By.xpath("//table[@id='enhcdRcnReqListingTableId']/tbody/tr[1]")).click();
 
