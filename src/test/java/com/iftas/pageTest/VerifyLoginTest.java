@@ -150,22 +150,22 @@ public class VerifyLoginTest extends LaunchandLoginTest {
 				
 		Thread.sleep(5000);
 
-		s.click(System.getProperty("user.dir")+"/Images/SelectFileImage.png");
+		s.click("Images/SelectFileImage.png");
 		 
-		 s.type(System.getProperty("user.dir")+"/PFXFile/RBIH0000000.pfx");
+		 s.type("PFXFile/RBIH0000000.pfx");
 		
-		 s.click(System.getProperty("user.dir")+"/Images/pfxpasswordfield.png");
+		 s.click("Images/pfxpasswordfield.png");
 		 
 		 s.type("pfxfile123");
 		
-		 s.click(System.getProperty("user.dir")+"/Images/Okbutton_pfxwindow.png");
+		 s.click("Images/Okbutton_pfxwindow.png");
 		
 		 Thread.sleep(10000);
 		  
-		 s.click(System.getProperty("user.dir")+"/Images/security check box.png");
+		 s.click("Images/security check box.png");
          
          
-         s.click(System.getProperty("user.dir")+"/Images/Runbutton.png"); 
+         s.click("Images/Runbutton.png"); 
 		  
 	       
 	      Thread.sleep(2000); 
@@ -200,15 +200,15 @@ public class VerifyLoginTest extends LaunchandLoginTest {
 			System.out.println("Clicked on Sign-in Button successfully");
 
 			Thread.sleep(5000);
-			s.click(System.getProperty("user.dir")+"/Images/SelectFileImage.png");
+			s.click("Images/SelectFileImage.png");
 			 
-			 s.type(System.getProperty("user.dir")+"/PFXFile/RBIH0000000.pfx");
+			 s.type("PFXFile/RBIH0000000.pfx");
 			
-			 s.click(System.getProperty("user.dir")+"/Images/pfxpasswordfield.png");
+			 s.click("Images/pfxpasswordfield.png");
 			 
 			 s.type("pfxfile123");
 			
-			 s.click(System.getProperty("user.dir")+"/Images/Okbutton_pfxwindow.png");
+			 s.click("Images/Okbutton_pfxwindow.png");
 			
 			  
 			  
@@ -232,9 +232,9 @@ public class VerifyLoginTest extends LaunchandLoginTest {
 		    			
 		    	Thread.sleep(10000);
 			  
-		    	s.click(System.getProperty("user.dir")+"/Images/security check box.png");
+		    	s.click("Images/security check box.png");
 		         
-		        s.click(System.getProperty("user.dir")+"/Images/Runbutton.png"); 
+		        s.click("Images/Runbutton.png"); 
 
 	}
 	
