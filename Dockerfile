@@ -10,6 +10,8 @@ ADD  target/libs libs
 ADD TestNG.xml testng.xml
 
 COPY src/test/resources/application.properties src/test/resources/application.properties
+COPY Images Images
+COPY PFXFile PFXFile
 
 #ADD  application.properties
 # Command line to execute the test
