@@ -73,21 +73,21 @@ public class AddingUserRolesTest extends LaunchandLoginTest {
 			 
 			  Thread.sleep(7000);
 			  
-			//s.click(System.getProperty("user.dir")+"/Images/Browsepfx.png");
-			//s.click(System.getProperty("user.dir")+"/Images/pfxfile.png");
-			//s.click(System.getProperty("user.dir")+"/Images//pfxfileopen.png");
-			//s.click(System.getProperty("user.dir")+"//Images//pfxpasswordfield.png");
+			//s.click("../../../../../../Images/Browsepfx.png");
+			//s.click("../../../../../../Images/pfxfile.png");
+			//s.click("../../../../../../Images//pfxfileopen.png");
+			//s.click("../../../../../../Images//pfxpasswordfield.png");
 			
 		
-			 s.click(System.getProperty("user.dir")+"/Images/SelectFileImage.png");
+			 s.click("../../../../../../Images/SelectFileImage.png");
 			 
 			 s.type("PFXFile/RBIH0000000.pfx");
 			
-			 s.click(System.getProperty("user.dir")+"/Images/pfxpasswordfield.png");
+			 s.click("../../../../../../Images/pfxpasswordfield.png");
 			 
 			 s.type("pfxfile123");
 			
-			 s.click(System.getProperty("user.dir")+"/Images/Okbutton_pfxwindow.png");
+			 s.click("../../../../../../Images/Okbutton_pfxwindow.png");
 			
 			 Thread.sleep(10000);
 			
@@ -162,9 +162,9 @@ public class AddingUserRolesTest extends LaunchandLoginTest {
 	    			
 	    	Thread.sleep(10000);
 		  
-	    	s.click(System.getProperty("user.dir")+"/Images/security check box.png");
+	    	s.click("../../../../../../Images/security check box.png");
             
-            s.click(System.getProperty("user.dir")+"/Images/Runbutton.png");
+            s.click("../../../../../../Images/Runbutton.png");
 		    			 
 		}
 		
