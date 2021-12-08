@@ -79,15 +79,15 @@ public class AddingUserRolesTest extends LaunchandLoginTest {
 			//s.click(System.getProperty("user.dir")+"//Images//pfxpasswordfield.png");
 			
 		
-			 s.click(System.getProperty("/Images/SelectFileImage.png"));
+			 s.click("/Images/SelectFileImage.png");
 			 
-			 s.type(System.getProperty("/PFXFile/RBIH0000000.pfx"));
+			 s.type("/PFXFile/RBIH0000000.pfx");
 			
-			 s.click(System.getProperty("/Images/pfxpasswordfield.png"));
+			 s.click("/Images/pfxpasswordfield.png");
 			 
 			 s.type("pfxfile123");
 			
-			 s.click(System.getProperty("/Images/Okbutton_pfxwindow.png"));
+			 s.click("/Images/Okbutton_pfxwindow.png");
 			
 			 Thread.sleep(10000);
 			
@@ -162,9 +162,9 @@ public class AddingUserRolesTest extends LaunchandLoginTest {
 	    			
 	    	Thread.sleep(10000);
 		  
-	    	s.click(System.getProperty("/Images/security check box.png"));
+	    	s.click("/Images/security check box.png");
             
-            s.click(System.getProperty("/Images/Runbutton.png"));
+            s.click("/Images/Runbutton.png");
 		    			 
 		}
 		
